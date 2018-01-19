@@ -8,7 +8,9 @@
   // その時は、Event Pageを使って、アクセスする。
   "content_scripts": [ {
     "matches": [ 
-      "https://coincheck.com/ja/buys"
+      "https://coincheck.com/ja/buys",
+      "https://coincheck.com/ja/sells",
+      "https://coincheck.com/ja/home/*"
     ],
     "js": [  "jquery.min.js", "content.js", "popup.js"],
     "run_at": "document_end"    
