@@ -3,9 +3,6 @@
   "name": "How much I bought at Coincheck",
   "version": "1.0",
 
-  // Content scriptは、webページ内のhtml要素を取得できるが、変数は取得できない。
-  // Content scriptはChromeの一部のAPIしかアクセスできない。
-  // その時は、Event Pageを使って、アクセスする。
   "content_scripts": [ {
     "matches": [ 
       "https://coincheck.com/ja/buys",
