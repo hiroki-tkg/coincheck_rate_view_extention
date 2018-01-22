@@ -116,4 +116,40 @@ $(function(){
 	$(".sells-index .sells-list .sell .progress").css('width','200px');
 	$(".actual_rate").css({'font-weight':'bold', 'display':'inline-block'});
 
+
+	// // もし"さらに読み込む"ボタンが押されたら
+	// $('.load-more-button').on('click', function(e) {
+
+	// 	// // 2秒待って
+	// 	$(function(){
+	// 	    setTimeout(function(){
+
+	// 			// .buyの数を取得
+	// 	   		var size = $('.buy').length;
+	// 	   		if ( size > 11 ){
+					
+	//    				// .buys要素を取得し、その中の.buy要素をそれぞれ取得
+	//    				for (var i =  11; i < 21; i++) {
+
+
+	//    				}
+
+
+	// 	   		} else if( size > 21 ) {
+
+	// 				alert("20以上");
+
+	// 	   		} else {
+	// 	   			alert('ない！');
+	// 	   		}
+
+	// 			// .buy要素が11個以上だったら
+
+	// 			// 要素取得して、計算する
+
+
+	// 	    },1000);
+	// 	});
+	// });
+
 });
