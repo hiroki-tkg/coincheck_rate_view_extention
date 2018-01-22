@@ -118,10 +118,12 @@ $(function(){
 
 
 	// もし"さらに読み込む"ボタンが押されたら
-	$('div.load-more-button.ng-click-active').click(function(){
+	$('.load-more-button').on('click', function(e) {
 
-		alert('hello');
+		alert('押されたよ！');
 
 	});
+
+
 
 });
