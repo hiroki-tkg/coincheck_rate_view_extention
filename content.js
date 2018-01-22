@@ -116,14 +116,4 @@ $(function(){
 	$(".sells-index .sells-list .sell .progress").css('width','200px');
 	$(".actual_rate").css({'font-weight':'bold', 'display':'inline-block'});
 
-
-	// もし"さらに読み込む"ボタンが押されたら
-	$('.load-more-button').on('click', function(e) {
-
-		alert('押されたよ！');
-
-	});
-
-
-
 });
